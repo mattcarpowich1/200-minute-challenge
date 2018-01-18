@@ -6,7 +6,7 @@ html, body {
 nav, 
 #header_main,
 section {
-  max-width: 912px;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
@@ -15,7 +15,7 @@ section {
 /*** TOP SECTION ***/
 header {
   background-color: #58b735;
-  padding-bottom: 64px;
+  padding-bottom: 128px;
 }
 
 nav {
@@ -23,9 +23,9 @@ nav {
   flex-direction: row;
   justify-content: flex-end;
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 64px;
   top: 8px;
-  right: 8px;
+  right: 3px;
 }
 
 nav ul {
@@ -67,14 +67,14 @@ nav ul li:first-child a img{
 }
 
 #header_main h1 {
-  font-size: calc(3vw + 3vh);
+  font-size: 10vmin;
   color: #FEFEFE;
   margin-right: 120px;
   margin-bottom: 24px;
 }
 
 #header_main h3 {
-  font-size: calc(2vh + 2vh);
+  font-size: 6vmin;
   color: rgba(254, 254, 254, .82);
   margin-right: 32px;
   line-height: 1.1;
@@ -82,8 +82,8 @@ nav ul li:first-child a img{
 
 /*** INTRO SECTION ***/
 #intro {
-  margin-top: 48px;
-  margin-bottom: 64px;
+  margin-top: 128px;
+  margin-bottom: 128px;
 }
 
 section#into p:first-child {
@@ -92,13 +92,13 @@ section#into p:first-child {
 
 #intro p {
   font-family: 'PT Serif', serif;
-  font-size: calc(1.2vw + 1.5vh);
+  font-size: 4.5vmin;
   line-height: 1.6;
   color: #222;
 }
 
 section p span.big-text {
-  font-size: calc(2.5vw + 2.5vh);
+  font-size: 7vmin;
 }
 
 section p span.em {
@@ -116,10 +116,10 @@ section p span.em {
 
 #mouse h1 {
   max-width: 912px;
-  font-family: 'Roboto', sans-serif;
-  font-size: calc(2.8vw + 2.8vh);
-  padding-top: 284px;
-  font-weight: 300;
+  font-family: 'Georgia', serif;
+  font-size: 8vmin;
+  padding-top: calc(252px - 4vmin);
+  font-weight: 700;
   color: #FEFEFE;
 }
 
@@ -133,16 +133,16 @@ section p span.em {
 }
 
 #projects {
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 128px;
+  padding-bottom: 128px;
   color: #FEFEFE;
 }
 
 #projects h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: calc(3vw + 3vh);
-  margin-bottom: 24px;
+  font-size: 8vmin;
+  margin-bottom: 32px;
 }
 
 #projects hr {
@@ -218,8 +218,8 @@ section p span.em {
 }
 
 #tech {
-  padding-top: 64px;
-  padding-bottom: 48px;
+  padding-top: 128px;
+  padding-bottom: 128px;
   color: #FEFEFE;
 }
 
