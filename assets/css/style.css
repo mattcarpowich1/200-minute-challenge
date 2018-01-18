@@ -1,0 +1,236 @@
+/*** MACRO PARAMETERS ***/
+html, body {
+  background-color: #FEFEFE;
+}
+
+nav, 
+#header_main,
+section {
+  max-width: 912px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+/*** TOP SECTION ***/
+header {
+  background-color: #58b735;
+  padding-bottom: 64px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  margin-bottom: 16px;
+  top: 8px;
+  right: 8px;
+}
+
+nav ul {
+  list-style-type: none; 
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a,
+nav ul li a:visited,
+nav ul li a:active,
+nav ul li a:hover {
+  text-decoration: none
+}
+
+nav ul li a:hover {
+  cursor: pointer;
+}
+
+nav ul li a img {
+  height: 48px;
+  width: 48px;
+}
+
+nav ul li:first-child a img{
+  margin-right: -4px;
+}
+
+#header_main {
+  margin: 0 auto;
+}
+
+#header_main h1, 
+#header_main h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#header_main h1 {
+  font-size: calc(3vw + 3vh);
+  color: #FEFEFE;
+  margin-right: 120px;
+  margin-bottom: 24px;
+}
+
+#header_main h3 {
+  font-size: calc(2vh + 2vh);
+  color: rgba(254, 254, 254, .82);
+  margin-right: 32px;
+  line-height: 1.1;
+}
+
+/*** INTRO SECTION ***/
+#intro {
+  margin-top: 48px;
+  margin-bottom: 64px;
+}
+
+section#into p:first-child {
+  margin-bottom: 8px;
+}
+
+#intro p {
+  font-family: 'PT Serif', serif;
+  font-size: calc(1.2vw + 1.5vh);
+  line-height: 1.6;
+  color: #222;
+}
+
+section p span.big-text {
+  font-size: calc(2.5vw + 2.5vh);
+}
+
+section p span.em {
+  font-style: italic;
+}
+
+/*** ARBITRARY SECTION ***/
+#mouse {
+  height: 504px;
+  width: 100%;
+  background: url("../images/mouse.jpg");
+  background-position: bottom;
+  position: relative;
+}
+
+#mouse h1 {
+  max-width: 912px;
+  font-family: 'Roboto', sans-serif;
+  font-size: calc(2.8vw + 2.8vh);
+  padding-top: 284px;
+  font-weight: 300;
+  color: #FEFEFE;
+}
+
+/*** PROJECTS SECTION ***/
+.fill {
+  width: 100%;
+}
+
+.fill-black {
+  background: #222;
+}
+
+#projects {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  color: #FEFEFE;
+}
+
+#projects h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: calc(3vw + 3vh);
+  margin-bottom: 24px;
+}
+
+#projects hr {
+  color: rgba(254, 254, 254, .8);
+  margin-bottom: 24px;
+}
+
+#projects .project-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'PT Serif', serif;
+  margin-bottom: 16px;
+}
+
+#projects .project-field h2 {
+  font-size: calc(1.5vw + 1.5vh);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+#projects .project-field p {
+  font-size: calc(1.2vw + 1.5vh);
+  color: rgba(254, 254, 254, .66);
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+#projects .project-field img {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  max-width: 400px;
+}
+
+#seq_link,
+#seq_repo_link,
+#pairat_link,
+#pairat_repo_link {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#seq_link, 
+#seq_repo_link,
+#pairat_link,
+#pairat_repo_link,
+#seq_link:visited, 
+#seq_repo_link:visited,
+#pairat_link:visited,
+#pairat_repo_link:visited,
+#seq_link:active,
+#seq_repo_link:active,
+#pairat_link:active,
+#pairat_repo_link:active {
+  color: #FEFEFE;
+}
+
+#seq_link:hover,
+#seq_repo_link:hover,
+#pairat_link:hover,
+#pairat_repo_link:hover {
+  cursor: pointer;
+  color: #58b735;
+}
+
+/*** SKILLS SECTION ***/
+.fill-green {
+  background-color: #58b735;
+}
+
+#tech {
+  padding-top: 64px;
+  padding-bottom: 48px;
+  color: #FEFEFE;
+}
+
+#tech h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: calc(3vw + 3vh);
+  margin-bottom: 24px;
+}
+
+#tech ul {
+  font-family: 'PT Serif', serif;
+  font-size: calc(1.5vw + 1.5vh);
+  color: rgba(254, 254, 254, .82);
+  line-height: 1.6;
+}
