@@ -185,6 +185,7 @@ section p span.em {
 #pairat_repo_link {
   font-weight: 400;
   text-decoration: none;
+  transition: color .3s ease;
 }
 
 #seq_link, 
@@ -208,6 +209,7 @@ section p span.em {
 #pairat_repo_link:hover {
   cursor: pointer;
   color: #58b735;
+  transition: color .3s ease;
 }
 
 /*** SKILLS SECTION ***/
