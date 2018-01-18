@@ -15,6 +15,7 @@ section {
 /*** TOP SECTION ***/
 header {
   background-color: #58b735;
+  padding-top: 128px;
   padding-bottom: 128px;
 }
 
@@ -22,10 +23,9 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  position: relative;
-  margin-bottom: 64px;
+  position: absolute;
   top: 8px;
-  right: 3px;
+  right: 8px;
 }
 
 nav ul {
@@ -226,13 +226,13 @@ section p span.em {
 #tech h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: calc(3vw + 3vh);
+  font-size: 8vmin;
   margin-bottom: 24px;
 }
 
 #tech ul {
   font-family: 'PT Serif', serif;
-  font-size: calc(1.5vw + 1.5vh);
+  font-size: 5vmin;
   color: rgba(254, 254, 254, .82);
   line-height: 1.6;
 }
